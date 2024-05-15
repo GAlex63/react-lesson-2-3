@@ -54,17 +54,3 @@ const calculateClassName = isCalculate ? 'equal done' : 'equal';
 		</div>
 	);
 };
-
-// {buttons.numbers.map((number) => {
-// 	<li><button>{number.value}</button></li>
-// })}
-
-{/* <div className='keypad'>
-{buttons.map((button) =>
-	<button className={'number'} key={button} value={button} onClick={(event) => {setResult(result + event.target.value)}}>{button}</button>
-)}
-<button className={'symbol'} value={'+'} onClick={(event) => {setResult(result + ' + ')}}>{' + '}</button>
-<button className={'symbol'} value={'-'} onClick={(event) => {setResult(result + ' - ')}}>{' - '}</button>
-<button className={'equal'} onClick={() => setResult(String(eval(result)))}>{' = '}</button>
-<button className={'clear'} onClick={() => setResult("0")}>{' C '}</button>
-</div> */}
